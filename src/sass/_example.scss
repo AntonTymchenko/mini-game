@@ -64,12 +64,14 @@ li + li {
 }
 
 .desk {
+  width: 70vw;
+  height: 70vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 500px;
-  height: 500px;
+
   background: #8080eb;
   box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
   border-radius: 30px;

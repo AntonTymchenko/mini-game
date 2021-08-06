@@ -89,7 +89,7 @@ function getRandomNumber(min, max) {
 function gameOver() {
   timeTableSet.parentNode.classList.add('hide'); //убираем родителя текущего элемента
   desk.innerHTML = `
-  <h2 class="result-title">Cчет: <span class="score">${score}</span></h2>
+  <h2 class="result-title">Score: <span class="score">${score}</span></h2>
 
   <a href='#' class='restart'>Start again</a>`;
   desk.classList.add('isOver');
