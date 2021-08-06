@@ -5,4 +5,4 @@ const t=document.getElementById("partScreen1"),e=document.getElementById("partSc
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/app.js");
 },{"./sass/main.scss":"clu1","./js/app.js":"QdeU"}]},{},["Focm"], null)
-//# sourceMappingURL=/mini-game/src.23c9abe1.js.map
+//# sourceMappingURL=/mini-game/src.a11d3492.js.map
