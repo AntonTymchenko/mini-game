@@ -1,0 +1,107 @@
+body {
+  color: #fff;
+  font-family: 'Style Script', cursive;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+.main-title {
+  line-height: 70px;
+  font-size: 60px;
+}
+
+.partOfscreen {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: margin 0.5s ease-out;
+  background: #1a436e;
+}
+.goGame {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.goGame:hover {
+  color: aquamarine;
+}
+
+.up {
+  margin-top: -100vh;
+}
+
+.listOfTime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.time-button {
+  background-color: transparent;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+li + li {
+  margin-left: 10px;
+}
+.time-button:hover {
+  color: aquamarine;
+  border-color: aquamarine;
+}
+
+.desk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: #8080eb;
+  box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
+  border-radius: 30px;
+  border: 5px solid #170b2e;
+  overflow: hidden;
+}
+.circle {
+  background: rgb(18, 235, 217);
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hide {
+  opacity: 0;
+}
+.score {
+  color: #170b2e;
+  line-height: 70px;
+  font-size: 60px;
+}
+.result-title {
+  line-height: 70px;
+  font-size: 60px;
+  color: #0c0c13;
+}
+.restart {
+  color: rgb(99, 56, 201);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.isOver {
+  display: flex;
+  flex-direction: column;
+}
